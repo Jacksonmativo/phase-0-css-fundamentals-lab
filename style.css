@@ -1,3 +1,45 @@
+h1 {
+  color: red;
+}
+header {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey;
+  color: white; /* Optional: makes text readable */
+  text-decoration: none;
+}
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+#featured-property p {
+  width: 800px;
+  margin: 20px auto; /* Centers block and adds spacing */
+  text-align: center;
+}
+#details div {
+  float: left;
+  width: 25%; /* Ensures four equal sections */
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+#details::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body {
   width: 100%;
   height: 100%;
